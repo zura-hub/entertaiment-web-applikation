@@ -1,0 +1,1 @@
+import myJason "./data.json" asserts {type: json}

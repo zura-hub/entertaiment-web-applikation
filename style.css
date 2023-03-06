@@ -288,6 +288,9 @@ body{
     transform: translate(180px, -140px);
 }
 
+.desctop-side-bar{
+    display: none;
+}
 .card-content{
     width: 164px;
     padding: 16px;
@@ -322,4 +325,142 @@ body{
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    .desctop-side-bar{
+        display: none;
+    }
+    
+    .carussel-container{
+        width: 470px;
+        height: 230px;
+        border-radius: 8px;
+    }
+
+    .carusell-card{
+        width: 100%
+    }
+
+    .caruserll-img{
+        width: 470px;
+        height: 230px;
+        border-radius: 8px;
+    }
+
+    .flag{
+        transform: translate(390px, -210px);
+    }
+
+    .carusell-btn{
+        transform: translateY(-155px);
+    }
+
+    .card-content{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 45px;
+    }
+
+    .card-conteiner-inner{
+        height: 140px;
+        width: 220px;
+        border-radius: 8px;
+
+    }
+
+    .card-container-img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-bar{
+        display: none;
+    }
+
+    .desctop-side-bar{
+        height: 960px;
+        width: 96px;
+        left: 32px;
+        top: 32px;
+        border-radius: 20px;
+        background: rgba(22, 29, 47, 1);   
+        display: grid;
+        justify-content: center;
+    }
+
+    .carusell{
+        width: 1300px;
+    }
+
+    .buttons{
+        display: grid;
+        margin-top: -150px;
+        margin-bottom: 200px;
+        margin-left: -7px;
+    }
+
+    .buttons img{
+        margin: 10px;
+    }
+
+    .main{
+        display: flex;
+    }
+
+    .header-img{
+        margin-top: 30px;
+       
+    }
+  
+
+    .carussel-container{
+        width: 470px;
+        height: 230px;
+        border-radius: 8px;
+    }
+
+    .carusell-card{
+        width: 100%
+    }
+
+    .caruserll-img{
+        width: 470px;
+        height: 230px;
+        border-radius: 8px;
+    }
+
+    .flag{
+        transform: translate(390px, -210px);
+    }
+
+    .carusell-btn{
+        transform: translateY(-155px);
+    }
+
+    .card-content{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 45px;
+    }
+
+    .card-conteiner-inner{
+        height: 140px;
+        width: 220px;
+        border-radius: 8px;
+
+    }
+
+    .card-container-img{
+        width: 100%;
+    }
+
+    .card-conteiner-inner{
+        height: 174px;
+        width: 280px;
+        border-radius: 8px;
+    }
 }
